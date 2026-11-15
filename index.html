@@ -9,10 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head>
+<link rel="icon" href="favicon.png" type="image/png"><link rel="icon" href="favicon.ico" sizes="any"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="theme-color" content="#14235a"></head>
 <body>
 
-<header><div class="wrap bar"><a href="index.html" aria-label="أبو العنين للتوريدات"><img class="logo" src="logo.png" alt="أبو العنين للتوريدات - جودة تلبي احتياجاتك"></a><nav aria-label="القائمة الرئيسية"><ul><li class="dd"><a href="prints.html">المطبوعات ▾</a><ul class="sub"><li><a href="prints.html#ticket">تيكت ملابس</a></li><li><a href="prints.html#heat">هيت سيل</a></li><li><a href="prints.html#dtf">طباعة DTF</a></li><li><a href="prints.html#barcode">استيكر باركود</a></li><li><a href="prints.html#boxes">علب</a></li><li><a href="prints.html#bags">شنط ورقية</a></li><li><a href="prints.html#photo">ورق صور</a></li><li><a href="prints.html#covers">أغلفة كتب</a></li></ul></li><li class="dd"><a href="supplies.html">المستلزمات ▾</a><ul class="sub"><li><a href="supplies.html#zipper">سوست</a></li><li><a href="supplies.html#lace">دانتيل</a></li><li><a href="supplies.html#buttons">زراير</a></li><li><a href="supplies.html#snaps">كباسين</a></li></ul></li><li><a href="index.html#about">من نحن</a></li><li><a href="index.html#how">طريقة الطلب</a></li><li><a href="index.html#contact">تواصل معنا</a></li></ul></nav><a class="cartlink" href="cart.html" aria-label="سلة الطلبات">🛒 السلة<span class="cartcount"></span></a><a class="btn btn-red" href="index.html#quote">اطلب عرض سعر</a></div></header>
+<header><div class="wrap bar"><a href="index.html" aria-label="أبو العنين للتوريدات"><img class="logo" src="logo.png" alt="أبو العنين للتوريدات - جودة تلبي احتياجاتك"></a><nav id="mainnav" aria-label="القائمة الرئيسية"><ul><li class="dd"><a href="prints.html">المطبوعات ▾</a><ul class="sub"><li><a href="prints.html#ticket">تيكت ملابس</a></li><li><a href="prints.html#heat">هيت سيل</a></li><li><a href="prints.html#dtf">طباعة DTF</a></li><li><a href="prints.html#barcode">استيكر باركود</a></li><li><a href="prints.html#boxes">علب</a></li><li><a href="prints.html#bags">شنط ورقية</a></li><li><a href="prints.html#photo">ورق صور</a></li><li><a href="prints.html#covers">أغلفة كتب</a></li></ul></li><li class="dd"><a href="supplies.html">المستلزمات ▾</a><ul class="sub"><li><a href="supplies.html#zipper">سوست</a></li><li><a href="supplies.html#lace">دانتيل</a></li><li><a href="supplies.html#buttons">زراير</a></li><li><a href="supplies.html#snaps">كباسين</a></li></ul></li><li><a href="index.html#about">من نحن</a></li><li><a href="index.html#how">طريقة الطلب</a></li><li><a href="index.html#contact">تواصل معنا</a></li><li class="onlymobile"><a href="index.html#quote">اطلب الآن</a></li></ul></nav><a class="cartlink" href="cart.html" aria-label="سلة الطلبات">🛒 السلة<span class="cartcount"></span></a><button type="button" class="menubtn" id="menubtn" aria-label="القائمة" aria-expanded="false" aria-controls="mainnav">☰</button><a class="btn btn-red" href="index.html#quote">اطلب الآن</a></div></header>
 
 <main id="top">
   <section class="hero">
@@ -21,7 +21,7 @@
         <h1>كل ما يحتاجه مصنعك من مستلزمات وطباعة، في مكان واحد</h1>
         <p>نورّد للمصانع والورش وأصحاب البراندات: سوست ودانتيل وزراير وكباسين، ونطبع التيكت والعلب والهيت سيل وDTF واستيكر الباركود من مطبعتنا في برج العرب.</p>
         <div class="cta">
-          <a class="btn btn-red" href="#quote">اطلب عرض سعر</a>
+          <a class="btn btn-red" href="#quote">اطلب الآن</a>
           <a class="btn btn-line" href="prints.html">شوف خدماتنا</a>
         </div>
       </div>
@@ -95,8 +95,8 @@
 
   <section class="quote" id="quote">
     <div class="wrap">
-      <h2>اطلب عرض سعر</h2>
-      <p class="lead">املأ البيانات وسيفتح واتساب برسالة جاهزة لنا.</p>
+      <h2>اطلب الآن</h2>
+      <p class="lead">املأ البيانات وسيفتح واتساب برسالة جاهزة لنا. أقل كمية للطلب 1000 قطعة في كل صنف.</p>
       <form id="qf">
         <label>الاسم<input name="name" required autocomplete="name"></label>
         <label>نوع النشاط
